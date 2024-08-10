@@ -14,7 +14,6 @@ function Tableau(){
             setPossessions(result.find(item => item.model === "Patrimoine").data.possessions);
         });
     },[]);
-
     return (
         <div className={"w-100 d-flex align-items-center justify-content-center"}>
             <table className={"table table-striped w-75 align-items-center"}>
