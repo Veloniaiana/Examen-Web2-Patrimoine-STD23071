@@ -3,7 +3,7 @@ import Possession from "../../patrimoine-economique/models/possessions/Possessio
 import {Button} from "react-bootstrap";
 import {useEffect, useState} from "react";
 import Patrimoine from "../../patrimoine-economique/models/Patrimoine.js";
-import {readFile} from "../../patrimoine-economique/data/index.js";
+import {readFile} from "./index.js";
 
 let PossessionArray = [];
 
